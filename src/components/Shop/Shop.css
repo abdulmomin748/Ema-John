@@ -1,0 +1,28 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin: 124px 70px 0 148px;
+}
+
+.pagiantion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pagiantion button{
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+}
+.pagiantion .selected{
+    background-color: goldenrod;
+    font-weight: bold;
+    border-color: goldenrod;
+}

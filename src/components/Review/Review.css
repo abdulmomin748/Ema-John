@@ -1,0 +1,67 @@
+.review-item-innr{
+    display: flex;
+    border: 1px solid #95A0A7;
+    width: 630px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.rvw-img{
+    width: 130px;
+    border-radius: 6px;
+}
+.review-details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    align-items: center;
+}
+.review-details p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.review-details h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.order-cntlr {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.order-cntlr .cart-container {
+    background: initial;
+    padding: 0;
+    
+}
+.order-cntlr .shop-cart-innr{
+    background-color: rgba(255, 153, 0, 0.3);
+    padding: 30px 20px;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+}
+.clear span{
+    color: #fff;
+}
+.btn-delete {
+    font-size: 31px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 0;
+    background: rgba(235, 87, 87, 0.3);
+    color: #EB5757;
+}
+.btn-delete:hover{
+    background: rgba(235, 87, 87, 0.5);
+}
+/* .btn-delete */

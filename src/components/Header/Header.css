@@ -1,0 +1,35 @@
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 144px;
+    background-color: #1C2B35;
+}
+.hdr-rgt{
+    margin-right: -30px;
+}
+.hdr-rgt a{
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all .5s;
+}
+
+.hdr-rgt a:hover{
+    color: #FF3030;
+}
+.lg-btn {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 10px 17px;
+    letter-spacing: 0.0015em;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(233 233 233 / 30%);
+    border-radius: 5px;
+    border: 0;
+}
